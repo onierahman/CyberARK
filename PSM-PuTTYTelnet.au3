@@ -75,6 +75,8 @@ Func Main()
 
 	; Click 'Open' button
 	ControlClick("[CLASS:PuTTYConfigBox]", "", "Button1")
+	Sleep(500)
+	Send("{ENTER}")
 
 	; Wait for the login prompt (adjust the timeout as necessary)
 	WinWaitActive("[CLASS:PuTTY]", "Login:", 1)
