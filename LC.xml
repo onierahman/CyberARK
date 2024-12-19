@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><LicenseXML version="12.2.0.57">
+
+  <General>
+    <Customer ID="CN Rail_Prod TestE2-2"/>
+    <VaultProperties DB="MySQL"/>
+    <LicenseKey key="3710356A8F3422CAF2B65277BD44E90788E7A975B6776FA2246DCAA9D18DA8EDEF4C63A831951F0B11E7DC490ACA6F6E883704FE764A6A12B52C41A2A76EBA529FC811763D29F9E838D974A73DAE491C0D9338B1A9176AFC1643F0BD24A617965FC7013DC9F031A745571D21259B6505F99F96F667830CE90A45849CFAAD7834EC4995E771FC65160E97A6D56ADA6BC58FD0255609724B9FED5EDA9CFC3087B2426AF29DAD6A6914857265C23058F4C37ECCFB90F8173573CE5517F1CBB61F06A7FBBB3C6B0616AD12B4BDE1A972E0F49342962A613C3882A0E9B3A1A57C01732EA98DE09E7CD4F618B3CD92123227D87292E611B49A86BE6008100E440B465C"/>
+  </General>
+
+  <Limitations>
+    <LicenseLimitations ExpirationDate="2025-06-04" PSMConcurrentSessions="125" PSMForServersCount="99999" SSHKeysTargetSystems="Unlimited"/>
+    <DR>Yes</DR>
+    <HACluster>Yes</HACluster>
+  </Limitations>
+
+  <UserTypes>
+    <UserType Description="Enterprise Password Vault End User" ID="34" LicensedUsers="330" Name="EPVUser" Options="1">
+      <AllowedApplication App="EVD"/>
+      <AllowedApplication App="GUI"/>
+      <AllowedApplication App="HTTPGW"/>
+      <AllowedApplication App="IBVSDK"/>
+      <AllowedApplication App="NAPI"/>
+      <AllowedApplication App="PACLI"/>
+      <AllowedApplication App="PIMSu"/>
+      <AllowedApplication App="PSM"/>
+      <AllowedApplication App="PSMP"/>
+      <AllowedApplication App="PVWA"/>
+      <AllowedApplication App="WINCLIENT"/>
+      <AllowedApplication App="XAPI"/>
+    </UserType>
+    <UserType Description="Basic User" ID="87" LicensedUsers="200" Name="BasicUser">
+      <AllowedApplication App="PVWA"/>
+    </UserType>
+    <UserType Description="Application Account" ID="35" LicensedUsers="650" Name="AIMAccount" Options="4">
+      <AllowedApplication App="AIMApp"/>
+      <AllowedApplication App="PAPI"/>
+    </UserType>
+    <UserType Description="Central Policy Manager" ID="31" LicensedUsers="5" Name="CPM" Options="4">
+      <AllowedApplication App="CPM"/>
+    </UserType>
+    <UserType Description="Password Vault Web Access" ID="32" LicensedUsers="10" Multiplicity="2" Name="PVWA" Options="4">
+      <AllowedApplication App="PVWAApp"/>
+    </UserType>
+    <UserType Description="Privileged Session Manager" ID="36" LicensedUsers="14" Multiplicity="2" Name="PSM" Options="4">
+      <AllowedApplication App="PSMApp"/>
+    </UserType>
+    <UserType Description="Application Password Provider" ID="33" LicensedUsers="65" Name="AppProvider" Options="4">
+      <AllowedApplication App="AppPrv"/>
+    </UserType>
+    <UserType Description="External User" ID="591" LicensedUsers="40" Name="ExtUser">
+      <AllowedApplication App="PIMSu"/>
+      <AllowedApplication App="PSM"/>
+      <AllowedApplication App="PSMP"/>
+      <AllowedApplication App="PVWA"/>
+    </UserType>
+    <UserType Description="On-demand Privileges Manager Provider" ID="37" LicensedUsers="10" Name="OPMProvider" Options="4">
+      <AllowedApplication App="AppPrv"/>
+    </UserType>
+    <UserType Description="CCP Endpoints" ID="99" LicensedUsers="30" Name="CCPEndpoints"/>
+    <UserType Description="Privileged Session Manager SSH Proxy" ID="70" LicensedUsers="14" Multiplicity="2" Name="PSMPServer" Options="4">
+      <AllowedApplication App="PSMPApp"/>
+    </UserType>
+    <UserType Description="Secure File Exchange" ID="54" LicensedUsers="4" Name="SFE" Options="4">
+      <AllowedApplication App="SFEAPP"/>
+    </UserType>
+    <UserType Description="DR user type 1 (DR)" ID="501" LicensedConcurrentUsers="1" LicensedUsers="1" Name="DR-Failback">
+      <AllowedApplication App="DR"/>
+    </UserType>
+    <UserType Description="DR user type" ID="502" LicensedUsers="3" Name="DR_users">
+      <AllowedApplication App="DR"/>
+    </UserType>
+  </UserTypes>
+
+</LicenseXML>
